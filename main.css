@@ -1,14 +1,45 @@
 body{
     background-color: rgba(221, 228, 238, 0.482);
-    font-family: arial
+    font-family: arial;
+    font-size: 24px;
+    text-align: center;
+}
+nav, footer{
+    background-color: steelblue;
+    text-align: center;
+    padding: 24px;
 }
 a {
     color: #000;
     font: size 11px;
     padding: 25px;
-    font-family: arial
-
+    font-family: arial;
+}
+main a{ 
+    color: black;
+    font-size: 1em;
+    padding: 0;
+}
+a:hover{
+    background-color:beige;
+    color:steelblue
 }
 img{
-    width: 500px;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    
+}
+p{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+footer{
+    background-color: steelblue;
+}
+footer p {
+    text-align: center;
+    color: beige;
 }
