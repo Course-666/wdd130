@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 body{
     background-color: rgba(221, 228, 238,);
-    font-family: arial;
+    font-family: "Oswald" arial;
     font-size: 24px;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 #content{
     background-color: lightblue;
@@ -33,13 +37,18 @@ img{
     width: 50%;
     margin: 0 auto;
     display: block;
+    border-radius: 10px;
     
 }
 p{
     width: 50%;
     text-align: center;
     margin: 0 auto;
-
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 5px solid black;
+    padding: 15px;
+    border-radius: 10px;
 }
 footer{
     background-color: steelblue;
