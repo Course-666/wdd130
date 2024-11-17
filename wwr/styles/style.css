@@ -208,7 +208,44 @@ main section img {
     grid-column: 6/10;
     grid-row: 6/7;
 }
+#Hero-Heading-Message{
+    text-align: center;
+    margin-top: 150px;
 
+}
+#header-plans{
+    text-align: center;
+    margin-top: 150px;
+}
+.pricing-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 150px;
+}
+#one-day-pricing{
+    grid-column: 1/2;
+    max-width: 90%;
+    border: 5px solid #090C02;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#two-day-pricing{
+    grid-column: 2/3;
+    max-width: 90%;
+    border: 5px solid #090C02;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#week-pricing{
+    grid-column: 3/4;
+    max-width: 90%;
+    border: 5px solid #090C02;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
