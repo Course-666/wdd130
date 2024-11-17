@@ -221,7 +221,6 @@ main section img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 150px;
-    color: #E9D785
 }
 #one-day-pricing{
     grid-column: 1/2;
