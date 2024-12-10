@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Pirata+One&display=swap');
+
+
+body{
+    background-color: #004189;
+    color: #D4AC0D;
+    font-family: "Pirata One";
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #004189;
+    font-family: "Pirata One";
+    display:grid;
+    grid-template-columns: 10% auto;
+}
+.logo{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color:#D4AC0D;
+    text-decoration: none;
+    text-align: center;
+    padding: 70px;
+    font-size: 12   0%;
+}
+nav a:hover{
+    color:white;
+    background-color: #D4AC0D;
+}
