@@ -2,7 +2,7 @@
 
 
 body{
-    background-color: #004189;
+    background-color: #EEEBE0;
     color: #D4AC0D;
     font-family: "Pirata One";
     margin: 0;
@@ -26,9 +26,77 @@ nav a{
     text-decoration: none;
     text-align: center;
     padding: 70px;
-    font-size: 12   0%;
+    font-size: 12%;
 }
 nav a:hover{
     color:white;
     background-color: #D4AC0D;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+h4{
+    text-align: center;
+}
+#hero-images{
+    display:grid ;
+    grid-template-columns: repeat(2, 50%);
+}
+#hero-image-1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid #004189;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#hero-image-2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid #004189;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#outer-map{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 450px;
+    border: 8px solid #004189;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+footer{
+    background-color: #004189;  
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
+footer a{
+    color: #D4AC0D;
+    text-decoration: none;
+}
+footer a:hover{
+    color:white;
+}
+footer p{
+    font-size: 1.2em;   
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+    transition: transform .5s;
+}
+footer .social img:hover{
+    transform: scale(1.1);
 }
